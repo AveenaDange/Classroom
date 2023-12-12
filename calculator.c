@@ -36,6 +36,7 @@ int main() {
     }
 
     if (operator == '+' || operator == '-' || operator == '*' || operator == '/') {
+    	printf("Processing result: \n");
         printf("%d %c %d = %d\n", num1, operator, num2, result);
     } else if (operator == '^') {
         printf("%d ^ %d = %d\n", num1, num2, result);
